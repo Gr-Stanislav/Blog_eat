@@ -28,4 +28,61 @@ h1 {
 
 .slider {
     display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.item-1, .item-2, .item-3 {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    width: 370px;
+    height: 310px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.item-1 {
+    background-image: url("/images/img-1.png");
+    background-repeat: no-repeat;
+}
+
+.item-2 {
+    background-image: url("/images/test-img-2.png");
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 370px;
+    height: 310px;
+    border-radius: 4px;
+}
+
+.item-3 {
+    background-image: url("/images/img-3.png");
+    background-repeat: no-repeat;
+}
+
+.day {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    opacity: 0.5;
+}
+
+.day-bag {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: -286px;
+    opacity: 0.5;
 }
