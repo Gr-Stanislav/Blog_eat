@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #B07CF7;
+    width: 100%;
+    max-width: 1500px;
+    height: 865px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.text {
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+    width: 570px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
