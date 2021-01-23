@@ -86,3 +86,32 @@ img {
     top: -286px;
     opacity: 0.5;
 }
+
+.namber {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.name-produkt {
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    top: 160px;
+}
+
+.bager {
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    bottom: 155px;
+}
+
+.mini-text {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    top: 10px;
+}
