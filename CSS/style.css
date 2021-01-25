@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .container {
     background-color: #B07CF7;
     width: 100%;
@@ -148,4 +149,79 @@ img {
 .button:hover {
     color: red;
     background-color: white;
+}
+
+
+
+/* HEADER NEW PROJECT */
+header {
+    background-image: url('/images/Font.png');
+    width: 100%;
+    max-width: 1500px;
+    height: 865px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.logo-site {
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+}
+
+li:hover {
+    border-top: 1px solid red;
+}
+
+ul {
+    position: absolute;
+    top: 55px;
+    right: 90px;
+}
+
+.info-site {
+    width: 375px;
+    height: 172px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info-site p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button1 {
+    border: none;
+    width: 200px;
+    height: 55px;
+    background-color: #FF6033;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 100px;
+    top: 510px;
+    cursor: pointer;
 }
