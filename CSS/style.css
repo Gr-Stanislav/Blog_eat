@@ -27,16 +27,17 @@ h1 {
 }
 
 .slider {
-    height: 390px;
+    height: auto;
+    min-height: 390px;
     display: flex;
     padding: 20px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
 }
 
 .item-1, .item-2, .item-3 {
-    /* border: 1px solid black; */
     border-radius: 4px;
     width: 370px;
     height: 310px;
