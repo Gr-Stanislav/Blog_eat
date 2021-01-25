@@ -162,6 +162,8 @@ header {
     text-align: center;
     padding-top: 100px;
     margin: 0 auto;
+    position: relative;
+    
 }
 
 .logo-site {
@@ -179,6 +181,7 @@ li {
     margin: 0 10px;
     cursor: pointer;
     border-top: 1px solid transparent;
+    font-family: 'Raleway', sans-serif;
 }
 
 li:hover {
@@ -224,4 +227,57 @@ h2 {
     left: 100px;
     top: 510px;
     cursor: pointer;
+}
+
+.maus {
+    width: 20px;
+    height: 30px;
+    margin: 330px auto 0;
+}
+
+
+
+.center-menu {
+    background-color: #F9F8FB;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    transition: all 1s;
+    color: #00C4C4;
+}
+
+.center-menu:hover {
+    background-color: #00b5b5c4;
+    color: white;
+}
+
+
+.center-menu img {
+    width: 566px;
+    height: 566px;
+}
+
+.text-tarel {
+    width: 500px;
+    height: 328px;
+    /* color: #00C4C4; */
+    text-align: left;
+}
+
+.about {
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
