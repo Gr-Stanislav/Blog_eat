@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .container {
     background-color: #B07CF7;
     width: 100%;
@@ -10,6 +11,7 @@
     height: 865px;
     text-align: center;
     padding-top: 100px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -23,4 +25,259 @@ h1 {
     display: inline-block;
     width: 570px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider {
+    height: auto;
+    min-height: 390px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.item-1, .item-2, .item-3 {
+    border-radius: 4px;
+    width: 370px;
+    height: 310px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    transition: all .25s;
+}
+
+.item-1:hover {
+    height: 340px;
+}
+
+.item-2:hover {
+    height: 340px;
+}
+
+.item-3:hover {
+    height: 340px;
+}
+
+.item-1 {
+    background-image: url("/images/img-1.png");
+    background-repeat: no-repeat;
+}
+
+.item-2 {
+    background-image: url("/images/test-img-2.png");
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 370px;
+    height: 310px;
+    border-radius: 4px;
+}
+
+.item-3 {
+    background-image: url("/images/img-3.png");
+    background-repeat: no-repeat;
+}
+
+.day {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    opacity: 0.5;
+}
+
+.day-bag {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: -286px;
+    opacity: 0.5;
+}
+
+.namber {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.name-produkt {
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    top: 160px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bager {
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: 22px;
+    bottom: 155px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.mini-text {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    top: 10px;
+}
+
+.button {
+    color: white;
+    padding: 15px 20px;
+    background-color: red;
+    width: 200px;
+    height: 55px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition: all .25s;
+}
+
+.button:hover {
+    color: red;
+    background-color: white;
+}
+
+
+
+/* HEADER NEW PROJECT */
+header {
+    background-image: url('/images/Font.png');
+    width: 100%;
+    max-width: 1500px;
+    height: 865px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.logo-site {
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    font-family: 'Raleway', sans-serif;
+}
+
+li:hover {
+    border-top: 1px solid red;
+}
+
+ul {
+    position: absolute;
+    top: 55px;
+    right: 90px;
+}
+
+.info-site {
+    width: 375px;
+    height: 172px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info-site p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button1 {
+    border: none;
+    width: 200px;
+    height: 55px;
+    background-color: #FF6033;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 100px;
+    top: 510px;
+    cursor: pointer;
+}
+
+.maus {
+    width: 20px;
+    height: 30px;
+    margin: 330px auto 0;
+}
+
+
+
+.center-menu {
+    background-color: #F9F8FB;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    transition: all 1s;
+    color: #00C4C4;
+}
+
+.center-menu:hover {
+    background-color: #00b5b5c4;
+    color: white;
+}
+
+
+.center-menu img {
+    width: 566px;
+    height: 566px;
+}
+
+.text-tarel {
+    width: 500px;
+    height: 328px;
+    /* color: #00C4C4; */
+    text-align: left;
+}
+
+.about {
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
