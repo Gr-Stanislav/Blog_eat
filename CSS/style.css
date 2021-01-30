@@ -410,10 +410,44 @@ textarea:focus {
     font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 325px;
-    right: 283px;
+    right: 12%;;
 }
 
 .tomato {
     width: 462px;
     height: 527px;
+}
+
+.left_bloc_tomato {
+    position: relative;
+    top: 65px; 
+}
+
+.mini_blok {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mini_text {
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.mini_img {
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid black;
+}
+
+.mini_img img {
+    margin-top: 30px;
+    width: 47px;
+    height: 43px;
 }
