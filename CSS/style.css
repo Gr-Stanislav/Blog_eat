@@ -451,3 +451,137 @@ textarea:focus {
     width: 47px;
     height: 43px;
 }
+
+
+
+/* GALLERY--------- */
+
+.gallery {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFE92F;
+    width: 100%;
+    max-width: 1500px;  
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.gallery p {
+    font-size: 17px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.top_bloc {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gallery-1 {
+    width: 770px;
+    height: 550px;
+    background-image: url("/images/gallery-1.svg");
+}
+
+.vertical-gallery {
+    margin-left: 30px;
+}
+
+.gallery-2 {
+    width: 370px;
+    height: 260px;
+    background-image: url("/images/gallery-2.svg");
+}
+
+.gallery-3 {
+    width: 370px;
+    height: 260px;
+    background-image: url("/images/gallery-3.svg");
+    margin-top: 30px;
+}
+
+.buttom_bloc {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gallery-4 {
+    background-image: url("/images/gallery-4.svg");
+    width: 570px;
+    height: 400px;
+}
+
+.gallery-5 {
+    background-image: url("/images/gallery-5.svg");
+    width: 570px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.gallery button {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    width: 200px;
+    height: 55px;
+    background-color: #5585A2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* SUBSKRIBE------- */
+
+.subskribe {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("/images/subskribe.svg");
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    max-width: 1500px;  
+    position: relative;
+    padding-top: 135px;
+    margin: 0 auto;
+    padding-left: 10%;
+}
+
+.subskribe h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subskribe p {
+    width: 43%;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.mail-client form {
+    margin-top: 30px;
+}
+
+.mail-client input {
+    display: inline-block;
+    padding-left: 1px;
+    width: 383px;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.mail-client button {
+    width: 170px;
+    height: 55px;
+    margin-left: 20px;
+    background-color: #96B92C;
+    border: none;
+    cursor: pointer;
+}
