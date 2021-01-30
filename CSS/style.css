@@ -316,8 +316,6 @@ footer {
 .center_bloc--form,
 .center_bloc--addres {
     width: 500px;
-    /* height: 445px; */
-    /* border: 1px solid black; */
 }
 
 form input {
@@ -353,9 +351,17 @@ textarea {
 textarea:focus {
     width: 100%;
     max-width: 100%;
-    max-height: 233px;
+    min-height: 233px;
     background-color: #00C4C4;
   }
+
+.submit {
+    padding: 10px;
+    background-color: rgb(114, 110, 110);
+    color: white;
+    margin-left: 0px;
+    margin-top: 5px;
+}
 
 .center_bloc--addres {
     display: inline;
@@ -365,9 +371,49 @@ textarea:focus {
 
 .center_bloc--addres p {
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
-a {
+.center_bloc--addres a {
     text-decoration: none;
     color: black;
+    font-size: 17px;
+}
+
+
+
+
+/* BLOC SERVICE--------- */
+
+
+.service {
+    background-color: #70BFFF;
+    width: 100%;
+    max-width: 1500px;
+    height: 790px;  
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_bloc_tomato {
+    height: 100%;
+    align-items: center;
+}
+
+.right_bloc_tomato h2 {
+    color: white;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 325px;
+    right: 283px;
+}
+
+.tomato {
+    width: 462px;
+    height: 527px;
 }
