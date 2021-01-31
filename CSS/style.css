@@ -381,6 +381,36 @@ textarea:focus {
     font-size: 17px;
 }
 
+.footer-buttom {
+    height: 90px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-buttom .left {
+    color: #B9B9B9;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+}
+
+.footer-buttom .center {
+    color: #B9B9B9;
+    font-family: 'Pacifico', cursive;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.footer-buttom .right {
+    color: #B9B9B9;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer-buttom-line span {
+    color: red;
+}
 
 
 
