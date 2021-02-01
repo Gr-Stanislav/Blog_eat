@@ -176,6 +176,10 @@ header {
     left: 90px;
 }
 
+.media_button {
+    display: none;
+}
+
 li {
     display: inline-block;
     margin: 0 10px;

@@ -1,0 +1,16 @@
+@media (max-width: 868px) {
+
+    header {
+        width: 100rem;
+    }
+
+    nav ul li {
+        font-size: 1.5rem;
+    }
+
+
+    .center-menu {
+        width: 100rem;
+    }
+
+}

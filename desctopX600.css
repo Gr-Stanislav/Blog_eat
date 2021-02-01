@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+
+    header {
+        width: 100rem;
+    }
+
+    .logo-site {
+        left: 10%;;
+    }
+
+    .media_button {
+        display: block;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+
+    .center-menu {
+        width: 100rem;
+    }
+}
