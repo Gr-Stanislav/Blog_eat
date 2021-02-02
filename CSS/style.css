@@ -620,3 +620,9 @@ textarea:focus {
     border: none;
     cursor: pointer;
 }
+
+
+
+.global__containe {
+    width: 100%;
+}
