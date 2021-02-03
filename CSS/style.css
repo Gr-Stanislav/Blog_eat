@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
 .container {
     background-color: #B07CF7;
     width: 100%;
@@ -154,13 +155,21 @@ img {
 
 
 /* HEADER NEW PROJECT */
+.top_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 header {
     background-image: url('/images/Font.png');
+    background-position: center;
     width: 100%;
     max-width: 1500px;
     height: 865px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 25px;
     margin: 0 auto;
     position: relative;
     
@@ -168,17 +177,22 @@ header {
 
 .logo-site {
     cursor: pointer;
-    font-size: 50px;
+    font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     display: block;
-    position: absolute;
     top: 30px;
-    left: 90px;
+    left: 10%;
 }
 
 .media_button {
-    display: none;
+    display: block;
+    background-color: #FF6033;
+    font-family: 'Raleway', sans-serif;
+    width: 23%;
+    padding: 10px;
+    color: #ffffff;
 }
+
 
 li {
     display: inline-block;
@@ -186,6 +200,7 @@ li {
     cursor: pointer;
     border-top: 1px solid transparent;
     font-family: 'Raleway', sans-serif;
+    display: none;
 }
 
 li:hover {
@@ -199,12 +214,11 @@ ul {
 }
 
 .info-site {
-    width: 375px;
-    height: 172px;
+    width: 73%;
     text-align: left;
     position: absolute;
-    left: 100px;
-    top: 350px;
+    left: 7%;
+    top: 250px;
 }
 
 h2 {
@@ -220,16 +234,15 @@ h2 {
 
 .button1 {
     border: none;
-    width: 200px;
-    height: 55px;
+    padding: 3%;
     background-color: #FF6033;
     font-size: 20px;
     color: white;
     text-align: center;
-    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
     position: absolute;
-    left: 100px;
-    top: 510px;
+    left: 7%;
+    margin-top: 30px;
     cursor: pointer;
 }
 
@@ -264,18 +277,18 @@ h2 {
 
 
 .center-menu img {
-    width: 566px;
-    height: 566px;
+    width: auto;
 }
 
 .text-tarel {
     width: 500px;
     height: 328px;
-    /* color: #00C4C4; */
     text-align: left;
+    
 }
 
 .about {
+    text-align: center;
     font-size: 90px;
     font-family: 'Raleway', sans-serif;
 }
@@ -284,6 +297,8 @@ h2 {
     margin-bottom: 10px;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -455,12 +470,13 @@ textarea:focus {
 
 .left_bloc_tomato {
     position: relative;
-    top: 65px; 
+    top: 65px;
+    width: 90%;
 }
 
 .mini_blok {
     display: flex;
-    width: 400px;
+    width: 100%;
     height: 100px;
     background-color: whitesmoke;
     margin-top: 20px;
@@ -625,4 +641,6 @@ textarea:focus {
 
 .global__containe {
     width: 100%;
+}
+
 }

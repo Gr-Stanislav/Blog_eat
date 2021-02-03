@@ -1,47 +1,4 @@
 @media screen and (max-width: 600px) {
-    header {
-        background-position: center;
-        height: 80vh;
-    }
-   
-    .logo-site {
-    width: 100%;
-    margin: 0 auto;
-    left: auto;
-   }
-
-   nav ul li {
-       display: none;
-   }
-
-   .media_button {
-       display: block;
-       width: 40%;
-       padding: 15px;
-       border: none;
-       background-color: salmon;
-       margin: 0 auto;
-   }
-
-   .info-site {
-    left: 6%;
-    top: 246px;
-    width: 74%;
-   }
-
-   .button1 {
-    left: 13%;
-    top: 448px;
-   }
-
-
-
-   .text-tarel {
-       height: none;
-       text-align: center;
-   }
-
-   .right_bloc_tomato h2 {
-       position: relative;
-   }
+    
+    
 }

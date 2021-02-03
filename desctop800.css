@@ -1,0 +1,8 @@
+@media screen and (max-width: 868px) {
+
+    .left_bloc_tomato {
+        position: relative;
+        left: 30%;
+        top: 65px;
+    }
+}
