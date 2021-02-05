@@ -1,9 +1,4 @@
-@media screen and (max-width: 868px) and (min-width: 600px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
+@media screen and (min-width: 867px) {
     
     .container {
         background-color: #B07CF7;
@@ -181,8 +176,9 @@
         font-size: 3rem;
         font-family: 'Raleway', sans-serif;
         display: block;
-        top: 30px;
-        left: 10%;
+        top: 4px;
+        left: -22%;
+        position: relative;
     }
     
     .media_button {
@@ -201,7 +197,7 @@
         cursor: pointer;
         border-top: 1px solid transparent;
         font-family: 'Raleway', sans-serif;
-        display: block;
+        display: inline-block;
     }
     
     li:hover {
@@ -212,6 +208,7 @@
         position: absolute;
         top: 55px;
         right: 90px;
+        width: 59%;
     }
     
     .info-site {
@@ -231,6 +228,7 @@
     .info-site p {
         font-size: 17px;
         font-family: 'Raleway', sans-serif;
+        width: 50%;
     }
     
     .button1 {
@@ -460,17 +458,17 @@
         /* font-size: 90px; */
         font-family: 'Raleway', sans-serif;
         position: absolute;
-        top: 25px;
-        right: 25%;;
+        top: 50%;
+        right: 7%;
     }
     
     .tomato {
-        width: 49%;
+        width: 90%;
         height: auto;
         position: relative;
-        top: -300px;
-        left: 42%;
-    }
+        top: -55%;
+        left: 55%;
+     }
     
     .left_bloc_tomato {
         position: relative;
@@ -481,6 +479,7 @@
     .mini_blok {
         display: flex;
         width: 50%;
+        max-width: 400px;
         height: 100px;
         background-color: whitesmoke;
         margin-top: 20px;
@@ -543,7 +542,6 @@
         width: 770px;
         height: 550px;
         background-image: url("/images/gallery-1.svg");
-        background-position: center;
     }
     
     .vertical-gallery {
@@ -600,7 +598,6 @@
     .subskribe {
         font-family: 'Raleway', sans-serif;
         background-image: url("/images/subskribe.svg");
-        background-position: center;
         width: 100%;
         max-width: 1500px;
         height: 500px;
@@ -649,5 +646,5 @@
         width: 100%;
     }
     
-}
     
+}
