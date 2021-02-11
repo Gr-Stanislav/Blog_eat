@@ -63,12 +63,12 @@
     }
     
     .item-1 {
-        background-image: url("/images/img-1.png");
+        background-image: url("../images/img-1.png");
         background-repeat: no-repeat;
     }
     
     .item-2 {
-        background-image: url("/images/test-img-2.png");
+        background-image: url("../images/test-img-2.png");
         background-repeat: no-repeat;
     }
     
@@ -79,7 +79,7 @@
     }
     
     .item-3 {
-        background-image: url("/images/img-3.png");
+        background-image: url("../images/img-3.png");
         background-repeat: no-repeat;
     }
     
@@ -164,7 +164,7 @@
     }
     
     header {
-        background-image: url('/images/Font.png');
+        background-image: url('../images/Font.png');
         background-position: center;
         width: 100%;
         max-width: 1500px;
@@ -179,7 +179,7 @@
     .logo-site {
         cursor: pointer;
         font-size: 3rem;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Pacifico', cursive;
         display: block;
         top: 30px;
         left: 10%;
@@ -305,10 +305,9 @@
     /* FOOTER BLOK */
     
     footer {
-        background-image: url('/images/fon_footer.png');
+        background-image: url('../images/fon_footer.png');
         width: 100%;
-        max-width: 1500px;
-        height: 865px;  
+        max-width: 1500px;  
         text-align: center;
         padding-top: 100px;
         margin: 0 auto;
@@ -542,7 +541,7 @@
     .gallery-1 {
         width: 770px;
         height: 550px;
-        background-image: url("/images/gallery-1.svg");
+        background-image: url("../images/gallery-1.svg");
         background-position: center;
     }
     
@@ -553,13 +552,13 @@
     .gallery-2 {
         width: 370px;
         height: 260px;
-        background-image: url("/images/gallery-2.svg");
+        background-image: url("../images/gallery-2.svg");
     }
     
     .gallery-3 {
         width: 370px;
         height: 260px;
-        background-image: url("/images/gallery-3.svg");
+        background-image: url("../images/gallery-3.svg");
         margin-top: 30px;
     }
     
@@ -570,13 +569,13 @@
     }
     
     .gallery-4 {
-        background-image: url("/images/gallery-4.svg");
+        background-image: url("../images/gallery-4.svg");
         width: 570px;
         height: 400px;
     }
     
     .gallery-5 {
-        background-image: url("/images/gallery-5.svg");
+        background-image: url("../images/gallery-5.svg");
         width: 570px;
         height: 400px;
         margin-left: 30px;
@@ -599,7 +598,7 @@
     
     .subskribe {
         font-family: 'Raleway', sans-serif;
-        background-image: url("/images/subskribe.svg");
+        background-image: url("../images/subskribe.svg");
         background-position: center;
         width: 100%;
         max-width: 1500px;
